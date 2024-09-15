@@ -1,0 +1,41 @@
+{
+  "name": "express-server-template",
+  "version": "1.0.0",
+  "description": "Express api sample template",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start:prod": "SET NODE_ENV=production&& nodemon index.js",
+    "start:mac": "NODE_ENV=production nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foxiom/express-server-template.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "mongodb"
+  ],
+  "author": "JK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Foxiom/express-server-template/issues"
+  },
+  "homepage": "https://github.com/Foxiom/express-server-template#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.4",
+    "slugify": "^1.6.6"
+  }
+}
